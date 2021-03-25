@@ -2,7 +2,7 @@
   <div>
     <fork-me></fork-me>
     <h1>Ask me something...</h1>
-    <div style="margin-bottom: 30px">
+    <div style="margin: 30px">
       <img
         :src="require('./assets/' + img)"
         :class="{ loading: isLoading }"
