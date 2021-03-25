@@ -1,5 +1,6 @@
 <template>
   <div>
+    <fork-me></fork-me>
     <h1>Ask me something...</h1>
     <div style="margin-bottom: 30px">
       <img
@@ -20,8 +21,13 @@
 </template>
 
 <script>
+import ForkMe from "./components/ForkMe.vue";
+
 export default {
   name: "App",
+  components: {
+    ForkMe
+  },
   data() {
     return {
       question: "",
